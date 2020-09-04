@@ -1,10 +1,9 @@
 {
   "name": "parcial",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +16,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natalivelez10/parcial2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/natalivelez10/parcial2/issues"
+  },
+  "homepage": "https://github.com/natalivelez10/parcial2#readme",
+  "description": ""
 }

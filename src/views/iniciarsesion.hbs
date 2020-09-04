@@ -1,0 +1,37 @@
+  <section>
+       <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validar() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            if (username == "nata_hermosa@gmail.com" && password == "12345") {
+                console.log(username)
+                console.log(password)
+                window.location.href = './home.html';
+            } else {
+                alert("Este usuario no existe")
+            }
+        }
+
+    </script>
+    <link rel="stylesheet" href="./style.css">
+       
+       
+    <form action="" class="container">
+        <div class="content">
+            <h1 class="title">Login</h1>
+            <div class="item">
+                <label class="label">Username</label>
+                <input class="inputs" type="email" name="username" id="username"/>
+            </div>
+            <div class="item">
+                <label class="label">password</label>
+                <input class="inputs" type="password" name="password" id="password"/>
+            </div>
+            <div class="cont-btn">
+                <input class="btn" type="button" name="btn" id="btn" onclick="validar()" value="Aceptar"/>
+            </div>
+        </div>
+    </form>

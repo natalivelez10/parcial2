@@ -84,6 +84,11 @@ header {
   transition: all 0.8s;
 }
 
+.menu-container:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transition: scale(1.2);
+}
 
 
 
@@ -585,4 +590,100 @@ margin-top: 50px;
   font-size: 2.5rem;
   color: white;
   text-align: center;
+}
+
+
+.Profesion {
+  color: #000;
+}
+.img-card {
+  height: 200px;
+  object-fit: cover;
+}
+.img-caroucel {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+.name {
+  color: #000;
+}
+.cards {
+  display: flex;
+}
+.card {
+  margin: 10px;
+}
+.section-index {
+  width: 100%;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  padding: 46px;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  padding: 46px;
+  
+}
+
+.title {
+  color: #9c27b0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 48px;
+  font-family: sans-serif;
+}
+.inputs {
+  height: 36px;
+  width: 228px;
+}
+
+.label {
+
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin: 20px;
+}
+.btn {
+  height: 44px;
+  border-color: transparent;
+  width: 151px;
+
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
 }
